@@ -1,0 +1,53 @@
+.container {
+    background-color: whitesmoke;
+    height: 300px;
+    width: 300px;
+}
+
+.container:hover {
+    color: blueviolet;
+    cursor: pointer;
+    overflow: hidden;
+    overflow: scroll;
+}
+
+.container2 {
+    background-color: yellow;
+    height: 300px;
+    width: 300px;
+}
+
+.container2:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+/* @media (max-width: 600px) {
+    .container {
+        background-color: red;
+        height: 300px;
+        width: 300px;
+    }    
+    .container2 {
+        background-color: yellowgreen;
+        height: 300px;
+        width: 300px;
+    }
+} */
+
+@media screen and (min-width: 600px) and (max-width: 900px) {
+    .container {
+        height: 250px;
+        width: 250px;
+        background-color: yellowgreen;
+    }
+    .container2 {
+        height: 200px;
+        width: 300px;
+        border-radius: 8px;
+    }
+}
+
+.container:hover, .container-2:hover {
+    border: 3px solid red;
+}
